@@ -1,0 +1,8 @@
+[PATTERN]
+^([2-9]{3}-)?[2-9]{3}-\d{4}$
+^\w+([.-]?\w)+@\w+([.]?\w)+(.[a-zA-Z]{2,3})+$
+Feb(ruary)? 23(rd)?
+[TEXT]
+234-234-2345
+student-id@alumni.school.edu
+February 23rd
