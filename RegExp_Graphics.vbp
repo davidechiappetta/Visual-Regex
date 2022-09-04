@@ -1,6 +1,6 @@
 Type=Exe
-Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\..\..\..\Windows\SysWOW64\stdole2.tlb#OLE Automation
-Reference=*\G{3F4DACA7-160D-11D2-A8E9-00104B365C9F}#5.5#0#..\..\..\..\..\Windows\SysWOW64\vbscript.dll\3#Microsoft VBScript Regular Expressions 5.5
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\Windows\SysWOW64\stdole2.tlb#OLE Automation
+Reference=*\G{3F4DACA7-160D-11D2-A8E9-00104B365C9F}#5.5#0#..\..\Windows\SysWOW64\vbscript.dll\3#Microsoft VBScript Regular Expressions 5.5
 Form=frm.frm
 Object={3B7C8863-D78F-101B-B9B5-04021C009402}#1.2#0; richtx32.ocx
 IconForm="frm"

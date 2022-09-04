@@ -1610,7 +1610,6 @@ Private Sub r_Change(Index As Integer)
     If r(Index).Tag = "skip" Then Exit Sub
     
     p.arPar(Index + VScrollPat.Value) = r(Index).Text
-    
     i = r(Index).SelStart
     colorizaCommentiPattern Index
     r(Index).SelStart = i
