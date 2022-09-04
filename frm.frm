@@ -1,7 +1,7 @@
 VERSION 5.00
 Object = "{3B7C8863-D78F-101B-B9B5-04021C009402}#1.2#0"; "richtx32.ocx"
 Begin VB.Form frm 
-   Caption         =   "RegExp (by Davide Chiappetta)"
+   Caption         =   "Visual Regex (by Davide Chiappetta)"
    ClientHeight    =   11100
    ClientLeft      =   60
    ClientTop       =   645
@@ -73,6 +73,7 @@ Begin VB.Form frm
       _ExtentY        =   767
       _Version        =   393217
       BackColor       =   12648384
+      Enabled         =   -1  'True
       MultiLine       =   0   'False
       Appearance      =   0
       AutoVerbMenu    =   -1  'True
@@ -163,6 +164,7 @@ Begin VB.Form frm
       _ExtentX        =   20294
       _ExtentY        =   767
       _Version        =   393217
+      Enabled         =   -1  'True
       MultiLine       =   0   'False
       Appearance      =   0
       AutoVerbMenu    =   -1  'True
@@ -187,6 +189,7 @@ Begin VB.Form frm
       _ExtentX        =   20294
       _ExtentY        =   767
       _Version        =   393217
+      Enabled         =   -1  'True
       MultiLine       =   0   'False
       Appearance      =   0
       AutoVerbMenu    =   -1  'True
@@ -211,6 +214,7 @@ Begin VB.Form frm
       _ExtentX        =   20294
       _ExtentY        =   767
       _Version        =   393217
+      Enabled         =   -1  'True
       MultiLine       =   0   'False
       Appearance      =   0
       AutoVerbMenu    =   -1  'True
@@ -235,6 +239,7 @@ Begin VB.Form frm
       _ExtentX        =   20294
       _ExtentY        =   767
       _Version        =   393217
+      Enabled         =   -1  'True
       MultiLine       =   0   'False
       Appearance      =   0
       AutoVerbMenu    =   -1  'True
@@ -259,6 +264,7 @@ Begin VB.Form frm
       _ExtentX        =   20294
       _ExtentY        =   767
       _Version        =   393217
+      Enabled         =   -1  'True
       MultiLine       =   0   'False
       Appearance      =   0
       AutoVerbMenu    =   -1  'True
@@ -283,6 +289,7 @@ Begin VB.Form frm
       _ExtentX        =   20294
       _ExtentY        =   767
       _Version        =   393217
+      Enabled         =   -1  'True
       MultiLine       =   0   'False
       Appearance      =   0
       AutoVerbMenu    =   -1  'True
@@ -307,6 +314,7 @@ Begin VB.Form frm
       _ExtentX        =   20294
       _ExtentY        =   767
       _Version        =   393217
+      Enabled         =   -1  'True
       MultiLine       =   0   'False
       Appearance      =   0
       AutoVerbMenu    =   -1  'True
@@ -331,6 +339,7 @@ Begin VB.Form frm
       _ExtentX        =   20294
       _ExtentY        =   767
       _Version        =   393217
+      Enabled         =   -1  'True
       MultiLine       =   0   'False
       Appearance      =   0
       AutoVerbMenu    =   -1  'True
@@ -355,6 +364,7 @@ Begin VB.Form frm
       _ExtentX        =   20294
       _ExtentY        =   767
       _Version        =   393217
+      Enabled         =   -1  'True
       MultiLine       =   0   'False
       Appearance      =   0
       AutoVerbMenu    =   -1  'True
@@ -379,6 +389,7 @@ Begin VB.Form frm
       _ExtentX        =   20294
       _ExtentY        =   767
       _Version        =   393217
+      Enabled         =   -1  'True
       MultiLine       =   0   'False
       Appearance      =   0
       AutoVerbMenu    =   -1  'True
@@ -403,6 +414,7 @@ Begin VB.Form frm
       _ExtentX        =   20294
       _ExtentY        =   767
       _Version        =   393217
+      Enabled         =   -1  'True
       MultiLine       =   0   'False
       Appearance      =   0
       AutoVerbMenu    =   -1  'True
