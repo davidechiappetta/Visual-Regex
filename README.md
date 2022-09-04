@@ -1,4 +1,4 @@
-# RegExp Graphics
+# Visual Regex
 
 ![image](https://raw.githubusercontent.com/davidechiappetta/RegExp-Graphics/main/img/reference.png)
 ![image](https://raw.githubusercontent.com/davidechiappetta/RegExp-Graphics/main/img/match_1.png)
