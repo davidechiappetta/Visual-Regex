@@ -15,15 +15,15 @@ Begin VB.Form frm
       Height          =   5085
       Left            =   11520
       Max             =   0
-      TabIndex        =   26
-      Top             =   390
+      TabIndex        =   25
+      Top             =   780
       Width           =   330
    End
    Begin VB.CheckBox chkTop 
       Caption         =   "top"
       BeginProperty Font 
          Name            =   "Arial"
-         Size            =   12
+         Size            =   9.75
          Charset         =   0
          Weight          =   700
          Underline       =   0   'False
@@ -32,8 +32,8 @@ Begin VB.Form frm
       EndProperty
       ForeColor       =   &H00FF0000&
       Height          =   315
-      Left            =   1050
-      TabIndex        =   25
+      Left            =   0
+      TabIndex        =   24
       Top             =   60
       Width           =   705
    End
@@ -41,7 +41,7 @@ Begin VB.Form frm
       Height          =   315
       Left            =   30
       Max             =   100
-      TabIndex        =   24
+      TabIndex        =   23
       Top             =   10740
       Width           =   11505
    End
@@ -56,23 +56,24 @@ Begin VB.Form frm
          Strikethrough   =   0   'False
       EndProperty
       Height          =   360
-      Left            =   3570
+      Left            =   1320
       Style           =   2  'Dropdown List
-      TabIndex        =   22
-      Top             =   5490
+      TabIndex        =   21
+      Top             =   5850
       Width           =   855
    End
    Begin RichTextLib.RichTextBox r 
       Height          =   435
       Index           =   0
       Left            =   0
-      TabIndex        =   8
-      Top             =   390
+      TabIndex        =   7
+      Top             =   750
       Width           =   11505
       _ExtentX        =   20294
       _ExtentY        =   767
       _Version        =   393217
       BackColor       =   12648384
+      Enabled         =   -1  'True
       MultiLine       =   0   'False
       Appearance      =   0
       AutoVerbMenu    =   -1  'True
@@ -88,11 +89,11 @@ Begin VB.Form frm
       EndProperty
    End
    Begin VB.VScrollBar VScroll 
-      Height          =   4515
-      Left            =   11550
+      Height          =   3795
+      Left            =   11580
       Max             =   0
-      TabIndex        =   7
-      Top             =   6210
+      TabIndex        =   6
+      Top             =   6930
       Width           =   330
    End
    Begin VB.PictureBox pic 
@@ -109,13 +110,13 @@ Begin VB.Form frm
          Strikethrough   =   0   'False
       EndProperty
       ForeColor       =   &H80000008&
-      Height          =   4545
+      Height          =   3885
       Left            =   30
-      ScaleHeight     =   301
+      ScaleHeight     =   257
       ScaleMode       =   3  'Pixel
       ScaleWidth      =   765
-      TabIndex        =   6
-      Top             =   6180
+      TabIndex        =   5
+      Top             =   6840
       Width           =   11505
    End
    Begin VB.CheckBox chkIgnoreCase 
@@ -130,8 +131,8 @@ Begin VB.Form frm
          Strikethrough   =   0   'False
       EndProperty
       Height          =   270
-      Left            =   3090
-      TabIndex        =   3
+      Left            =   1800
+      TabIndex        =   2
       Top             =   90
       Width           =   1425
    End
@@ -147,8 +148,8 @@ Begin VB.Form frm
          Strikethrough   =   0   'False
       EndProperty
       Height          =   270
-      Left            =   2010
-      TabIndex        =   2
+      Left            =   780
+      TabIndex        =   1
       Top             =   90
       Value           =   1  'Checked
       Width           =   975
@@ -157,12 +158,13 @@ Begin VB.Form frm
       Height          =   435
       Index           =   1
       Left            =   0
-      TabIndex        =   9
-      Top             =   810
+      TabIndex        =   8
+      Top             =   1170
       Width           =   11505
       _ExtentX        =   20294
       _ExtentY        =   767
       _Version        =   393217
+      Enabled         =   -1  'True
       MultiLine       =   0   'False
       Appearance      =   0
       AutoVerbMenu    =   -1  'True
@@ -181,12 +183,13 @@ Begin VB.Form frm
       Height          =   435
       Index           =   2
       Left            =   0
-      TabIndex        =   10
-      Top             =   1230
+      TabIndex        =   9
+      Top             =   1590
       Width           =   11505
       _ExtentX        =   20294
       _ExtentY        =   767
       _Version        =   393217
+      Enabled         =   -1  'True
       MultiLine       =   0   'False
       Appearance      =   0
       AutoVerbMenu    =   -1  'True
@@ -205,12 +208,13 @@ Begin VB.Form frm
       Height          =   435
       Index           =   4
       Left            =   0
-      TabIndex        =   11
-      Top             =   2070
+      TabIndex        =   10
+      Top             =   2430
       Width           =   11505
       _ExtentX        =   20294
       _ExtentY        =   767
       _Version        =   393217
+      Enabled         =   -1  'True
       MultiLine       =   0   'False
       Appearance      =   0
       AutoVerbMenu    =   -1  'True
@@ -229,12 +233,13 @@ Begin VB.Form frm
       Height          =   435
       Index           =   5
       Left            =   0
-      TabIndex        =   12
-      Top             =   2490
+      TabIndex        =   11
+      Top             =   2850
       Width           =   11505
       _ExtentX        =   20294
       _ExtentY        =   767
       _Version        =   393217
+      Enabled         =   -1  'True
       MultiLine       =   0   'False
       Appearance      =   0
       AutoVerbMenu    =   -1  'True
@@ -253,12 +258,13 @@ Begin VB.Form frm
       Height          =   435
       Index           =   6
       Left            =   0
-      TabIndex        =   13
-      Top             =   2910
+      TabIndex        =   12
+      Top             =   3270
       Width           =   11505
       _ExtentX        =   20294
       _ExtentY        =   767
       _Version        =   393217
+      Enabled         =   -1  'True
       MultiLine       =   0   'False
       Appearance      =   0
       AutoVerbMenu    =   -1  'True
@@ -277,12 +283,13 @@ Begin VB.Form frm
       Height          =   435
       Index           =   7
       Left            =   0
-      TabIndex        =   14
-      Top             =   3330
+      TabIndex        =   13
+      Top             =   3690
       Width           =   11505
       _ExtentX        =   20294
       _ExtentY        =   767
       _Version        =   393217
+      Enabled         =   -1  'True
       MultiLine       =   0   'False
       Appearance      =   0
       AutoVerbMenu    =   -1  'True
@@ -301,12 +308,13 @@ Begin VB.Form frm
       Height          =   435
       Index           =   8
       Left            =   0
-      TabIndex        =   15
-      Top             =   3750
+      TabIndex        =   14
+      Top             =   4110
       Width           =   11505
       _ExtentX        =   20294
       _ExtentY        =   767
       _Version        =   393217
+      Enabled         =   -1  'True
       MultiLine       =   0   'False
       Appearance      =   0
       AutoVerbMenu    =   -1  'True
@@ -325,12 +333,13 @@ Begin VB.Form frm
       Height          =   435
       Index           =   9
       Left            =   0
-      TabIndex        =   16
-      Top             =   4170
+      TabIndex        =   15
+      Top             =   4530
       Width           =   11505
       _ExtentX        =   20294
       _ExtentY        =   767
       _Version        =   393217
+      Enabled         =   -1  'True
       MultiLine       =   0   'False
       Appearance      =   0
       AutoVerbMenu    =   -1  'True
@@ -349,12 +358,13 @@ Begin VB.Form frm
       Height          =   435
       Index           =   10
       Left            =   0
-      TabIndex        =   17
-      Top             =   4590
+      TabIndex        =   16
+      Top             =   4950
       Width           =   11505
       _ExtentX        =   20294
       _ExtentY        =   767
       _Version        =   393217
+      Enabled         =   -1  'True
       MultiLine       =   0   'False
       Appearance      =   0
       AutoVerbMenu    =   -1  'True
@@ -373,12 +383,13 @@ Begin VB.Form frm
       Height          =   435
       Index           =   11
       Left            =   0
-      TabIndex        =   18
-      Top             =   5010
+      TabIndex        =   17
+      Top             =   5370
       Width           =   11505
       _ExtentX        =   20294
       _ExtentY        =   767
       _Version        =   393217
+      Enabled         =   -1  'True
       MultiLine       =   0   'False
       Appearance      =   0
       AutoVerbMenu    =   -1  'True
@@ -397,12 +408,13 @@ Begin VB.Form frm
       Height          =   435
       Index           =   3
       Left            =   0
-      TabIndex        =   21
-      Top             =   1650
+      TabIndex        =   20
+      Top             =   2010
       Width           =   11505
       _ExtentX        =   20294
       _ExtentY        =   767
       _Version        =   393217
+      Enabled         =   -1  'True
       MultiLine       =   0   'False
       Appearance      =   0
       AutoVerbMenu    =   -1  'True
@@ -416,6 +428,66 @@ Begin VB.Form frm
          Italic          =   0   'False
          Strikethrough   =   0   'False
       EndProperty
+   End
+   Begin VB.Label Label1 
+      AutoSize        =   -1  'True
+      Caption         =   "index char/s (start:end) result from regexp"
+      BeginProperty Font 
+         Name            =   "Arial"
+         Size            =   9.75
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   -1  'True
+         Strikethrough   =   0   'False
+      EndProperty
+      ForeColor       =   &H00808080&
+      Height          =   240
+      Index           =   6
+      Left            =   60
+      TabIndex        =   29
+      Top             =   6540
+      Width           =   3615
+   End
+   Begin VB.Label Label1 
+      AutoSize        =   -1  'True
+      Caption         =   "index selected char/s with mouse (start:end)"
+      BeginProperty Font 
+         Name            =   "Arial"
+         Size            =   9.75
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   -1  'True
+         Strikethrough   =   0   'False
+      EndProperty
+      ForeColor       =   &H00808080&
+      Height          =   240
+      Index           =   5
+      Left            =   60
+      TabIndex        =   28
+      Top             =   6270
+      Width           =   3825
+   End
+   Begin VB.Label Label1 
+      AutoSize        =   -1  'True
+      Caption         =   "select index line pattern and index line text  corresponding"
+      BeginProperty Font 
+         Name            =   "Arial"
+         Size            =   11.25
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   -1  'True
+         Strikethrough   =   0   'False
+      EndProperty
+      ForeColor       =   &H00808080&
+      Height          =   255
+      Index           =   0
+      Left            =   3420
+      TabIndex        =   27
+      Top             =   450
+      Width           =   5625
    End
    Begin VB.Label lblValidRegExp 
       Appearance      =   0  'Flat
@@ -433,14 +505,14 @@ Begin VB.Form frm
       EndProperty
       ForeColor       =   &H00008000&
       Height          =   315
-      Left            =   1110
-      TabIndex        =   27
-      Top             =   5520
+      Left            =   2100
+      TabIndex        =   26
+      Top             =   420
       Width           =   1185
    End
    Begin VB.Label Label1 
       AutoSize        =   -1  'True
-      Caption         =   "font size:"
+      Caption         =   "text font size:"
       BeginProperty Font 
          Name            =   "Arial"
          Size            =   9.75
@@ -453,10 +525,10 @@ Begin VB.Form frm
       ForeColor       =   &H00000000&
       Height          =   240
       Index           =   4
-      Left            =   2670
-      TabIndex        =   23
-      Top             =   5550
-      Width           =   855
+      Left            =   30
+      TabIndex        =   22
+      Top             =   5940
+      Width           =   1275
    End
    Begin VB.Label Label1 
       AutoSize        =   -1  'True
@@ -473,8 +545,8 @@ Begin VB.Form frm
       ForeColor       =   &H00808080&
       Height          =   255
       Index           =   3
-      Left            =   10080
-      TabIndex        =   20
+      Left            =   8820
+      TabIndex        =   19
       Top             =   90
       Width           =   1710
    End
@@ -493,8 +565,8 @@ Begin VB.Form frm
       ForeColor       =   &H00808080&
       Height          =   255
       Index           =   2
-      Left            =   4710
-      TabIndex        =   19
+      Left            =   3420
+      TabIndex        =   18
       Top             =   90
       Width           =   5355
    End
@@ -513,10 +585,10 @@ Begin VB.Form frm
       EndProperty
       ForeColor       =   &H80000008&
       Height          =   255
-      Left            =   1170
-      TabIndex        =   5
-      Top             =   5910
-      Width           =   10365
+      Left            =   3930
+      TabIndex        =   4
+      Top             =   6540
+      Width           =   7545
    End
    Begin VB.Label lblInfoCaretTxtString 
       Appearance      =   0  'Flat
@@ -534,17 +606,17 @@ Begin VB.Form frm
       EndProperty
       ForeColor       =   &H80000008&
       Height          =   255
-      Left            =   60
-      TabIndex        =   4
-      Top             =   5910
+      Left            =   3930
+      TabIndex        =   3
+      Top             =   6270
       Width           =   1125
    End
    Begin VB.Label Label1 
       AutoSize        =   -1  'True
-      Caption         =   "Pattern:"
+      Caption         =   "Pattern: Valid/Invalid"
       BeginProperty Font 
          Name            =   "Arial"
-         Size            =   12
+         Size            =   9.75
          Charset         =   0
          Weight          =   700
          Underline       =   0   'False
@@ -552,32 +624,12 @@ Begin VB.Form frm
          Strikethrough   =   0   'False
       EndProperty
       ForeColor       =   &H00FF0000&
-      Height          =   285
-      Index           =   0
-      Left            =   30
-      TabIndex        =   1
-      Top             =   60
-      Width           =   915
-   End
-   Begin VB.Label Label1 
-      AutoSize        =   -1  'True
-      Caption         =   "String:"
-      BeginProperty Font 
-         Name            =   "Arial"
-         Size            =   12
-         Charset         =   0
-         Weight          =   700
-         Underline       =   0   'False
-         Italic          =   0   'False
-         Strikethrough   =   0   'False
-      EndProperty
-      ForeColor       =   &H00FF0000&
-      Height          =   285
+      Height          =   240
       Index           =   1
-      Left            =   60
+      Left            =   30
       TabIndex        =   0
-      Top             =   5520
-      Width           =   780
+      Top             =   450
+      Width           =   2010
    End
    Begin VB.Menu pMenu 
       Caption         =   "pMenu"
@@ -925,11 +977,18 @@ Function processaRegExp()
     On Error GoTo hell
     Dim rx As New RegExp
     Dim a As Long
-
+    Dim mColl As MatchCollection
+    
     lblInfoCollectionMatch.Caption = ""
     Erase arMatch
-    
-    If gen.iSelLine = -1 Then Exit Function
+
+    If gen.iSelLine = -1 Then
+        rx.Global = chkGlobal.Value = 1
+        rx.IgnoreCase = chkIgnoreCase.Value = 1
+        rx.pattern = p.pattern
+        Set mColl = rx.Execute("dummy") 'test is error
+        Exit Function
+    End If
     
     testo = gen.ar(gen.iSelLine)
     
@@ -938,11 +997,10 @@ Function processaRegExp()
         Exit Function
     End If
 
-    Dim mColl As MatchCollection
+    
     
     rx.Global = chkGlobal.Value = 1
     rx.IgnoreCase = chkIgnoreCase.Value = 1
-
     rx.pattern = p.pattern
     
     Set mColl = rx.Execute(testo)
