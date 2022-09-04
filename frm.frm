@@ -73,7 +73,6 @@ Begin VB.Form frm
       _ExtentY        =   767
       _Version        =   393217
       BackColor       =   12648384
-      Enabled         =   -1  'True
       MultiLine       =   0   'False
       Appearance      =   0
       AutoVerbMenu    =   -1  'True
@@ -164,7 +163,6 @@ Begin VB.Form frm
       _ExtentX        =   20294
       _ExtentY        =   767
       _Version        =   393217
-      Enabled         =   -1  'True
       MultiLine       =   0   'False
       Appearance      =   0
       AutoVerbMenu    =   -1  'True
@@ -189,7 +187,6 @@ Begin VB.Form frm
       _ExtentX        =   20294
       _ExtentY        =   767
       _Version        =   393217
-      Enabled         =   -1  'True
       MultiLine       =   0   'False
       Appearance      =   0
       AutoVerbMenu    =   -1  'True
@@ -214,7 +211,6 @@ Begin VB.Form frm
       _ExtentX        =   20294
       _ExtentY        =   767
       _Version        =   393217
-      Enabled         =   -1  'True
       MultiLine       =   0   'False
       Appearance      =   0
       AutoVerbMenu    =   -1  'True
@@ -239,7 +235,6 @@ Begin VB.Form frm
       _ExtentX        =   20294
       _ExtentY        =   767
       _Version        =   393217
-      Enabled         =   -1  'True
       MultiLine       =   0   'False
       Appearance      =   0
       AutoVerbMenu    =   -1  'True
@@ -264,7 +259,6 @@ Begin VB.Form frm
       _ExtentX        =   20294
       _ExtentY        =   767
       _Version        =   393217
-      Enabled         =   -1  'True
       MultiLine       =   0   'False
       Appearance      =   0
       AutoVerbMenu    =   -1  'True
@@ -289,7 +283,6 @@ Begin VB.Form frm
       _ExtentX        =   20294
       _ExtentY        =   767
       _Version        =   393217
-      Enabled         =   -1  'True
       MultiLine       =   0   'False
       Appearance      =   0
       AutoVerbMenu    =   -1  'True
@@ -314,7 +307,6 @@ Begin VB.Form frm
       _ExtentX        =   20294
       _ExtentY        =   767
       _Version        =   393217
-      Enabled         =   -1  'True
       MultiLine       =   0   'False
       Appearance      =   0
       AutoVerbMenu    =   -1  'True
@@ -339,7 +331,6 @@ Begin VB.Form frm
       _ExtentX        =   20294
       _ExtentY        =   767
       _Version        =   393217
-      Enabled         =   -1  'True
       MultiLine       =   0   'False
       Appearance      =   0
       AutoVerbMenu    =   -1  'True
@@ -364,7 +355,6 @@ Begin VB.Form frm
       _ExtentX        =   20294
       _ExtentY        =   767
       _Version        =   393217
-      Enabled         =   -1  'True
       MultiLine       =   0   'False
       Appearance      =   0
       AutoVerbMenu    =   -1  'True
@@ -389,7 +379,6 @@ Begin VB.Form frm
       _ExtentX        =   20294
       _ExtentY        =   767
       _Version        =   393217
-      Enabled         =   -1  'True
       MultiLine       =   0   'False
       Appearance      =   0
       AutoVerbMenu    =   -1  'True
@@ -414,7 +403,6 @@ Begin VB.Form frm
       _ExtentX        =   20294
       _ExtentY        =   767
       _Version        =   393217
-      Enabled         =   -1  'True
       MultiLine       =   0   'False
       Appearance      =   0
       AutoVerbMenu    =   -1  'True
@@ -980,6 +968,9 @@ Function processaRegExp()
     Dim mColl As MatchCollection
     
     lblInfoCollectionMatch.Caption = ""
+    lblValidRegExp.ForeColor = &H8000&
+    lblValidRegExp.Caption = "Valid"
+    
     Erase arMatch
 
     If gen.iSelLine = -1 Then
@@ -1005,8 +996,7 @@ Function processaRegExp()
     
     Set mColl = rx.Execute(testo)
     
-    lblValidRegExp.ForeColor = &H8000&
-    lblValidRegExp.Caption = "Valid"
+
 
     For a = 0 To mColl.Count - 1
         arMatch(a).firstIndex = mColl.Item(a).firstIndex
@@ -1815,3 +1805,5 @@ End Sub
 Private Sub VScrollPat_Scroll()
     VScrollPat_Change
 End Sub
+
+
